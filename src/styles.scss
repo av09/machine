@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/variables';
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  color: $body-font-color;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:visited,
+a:hover {
+  color: $grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $grey;
+}
